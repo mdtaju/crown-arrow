@@ -141,3 +141,202 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
+
+/* management */
+.slider_container {
+  background-image: url("../images/slider.png");
+  background-color: #2b2b2b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0px;
+  margin-bottom: 100px;
+  z-index: 2;
+  overflow: hidden;
+}
+.slider_golden_ratio {
+  bottom: -50px;
+  left: 0;
+  z-index: -1;
+}
+.slider_info_container {
+  padding: 100px 0px;
+}
+.slider_info_container button {
+  border: 1px solid #ffffff;
+  border-radius: 43px;
+  width: 238px;
+  height: 59px;
+  background: transparent;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.slider_info_container button:hover {
+  background-color: #969696;
+}
+.slider_info_container h2 {
+  text-transform: uppercase;
+  font-family: "Trajan Pro";
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.section_title {
+  font-family: "Trajan Pro";
+  font-weight: 500;
+  font-size: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 1014px;
+}
+.capital_management_container {
+  padding: 100px 0px;
+}
+.section_des {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  max-width: 1014px;
+}
+@media (max-width: 425px) {
+  .section_title {
+    font-size: 32px;
+  }
+  .capital_management_container {
+    padding: 70px 20px;
+  }
+  .slider_golden_ratio {
+    bottom: -30px;
+  }
+  .slider_info_container {
+    padding: 70px 20px;
+  }
+  .slider_info_container h2 {
+    font-size: 32px;
+  }
+}
+.border_card {
+  max-width: 295px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #a99b56;
+  backdrop-filter: blur(4.15px);
+  border-radius: 11px;
+  padding: 20px;
+  height: 100%;
+  position: relative;
+  margin: 0px auto;
+}
+.cart_arrow_path {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -55px;
+}
+.border_card h4,
+.card_without_border h4 {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-size: 20px;
+}
+.border_card p,
+.card_without_border p {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-size: 16px;
+}
+.border_card_icon {
+  width: 53px;
+  height: 53px;
+  background: #a99b56;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
+.arrow_path_container {
+  width: 100%;
+  max-width: 950px;
+}
+.card_without_border {
+  max-width: 295px;
+  padding: 20px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+.card_without_border_text_container::after {
+  content: "";
+  width: 1px;
+  height: 77%;
+  background: rgba(255, 255, 255, 0.52);
+  position: absolute;
+  right: -10px;
+  top: 65px;
+}
+.comprehensive_variant_container {
+  background: #2b2929;
+  width: 100%;
+  max-width: 1232px;
+  min-height: 400px;
+  padding: 50px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.comprehensive_outline_container {
+  width: 100%;
+  max-width: 1232px;
+  height: 100%;
+  border: 1px solid #d3bb95;
+  position: absolute;
+  z-index: -1;
+  left: 20px;
+  top: 20px;
+}
+.comprehensive_variant_container h1 {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-size: 40px;
+}
+.comprehensive_variant_container h2 {
+  font-family: "Trajan Pro";
+  font-weight: 500;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+.comprehensive_variant_container p {
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .arrow_path_container {
+    width: 500px;
+  }
+  .cart_arrow_path {
+    display: none;
+  }
+  .card_without_border_text_container::after {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .arrow_path_container {
+    display: none !important;
+  }
+  .comprehensive_variant_container,
+  .comprehensive_outline_container {
+    padding: 10px;
+    width: 90%;
+  }
+  .comprehensive_variant_container h1 {
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .comprehensive_variant_container h2 {
+    font-family: "Trajan Pro";
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+}
