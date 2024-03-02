@@ -30,6 +30,10 @@
     <title>Home - Crown Arrow</title>
   </head>
   <body class="bg-dark-primary" data-bs-theme="dark">
+    <!-- golden ratio -->
+    <div class="contact_golden_ratio">
+      <img src="./images/gold_pattern_berticle.png" alt="golden-ratio" />
+    </div>
     <header class="sticky-top bg-dark-primary px-2">
       <nav class="navbar navbar-dark p-2 py-md-4 px-md-5 user-select-none">
         <div class="container-fluid">
@@ -126,7 +130,152 @@
     </header>
 
     <main>
-      <section class="hero-container"></section>
+      <section class="container contact_container">
+        <div class="row">
+          <!-- input containers -->
+          <div class="contact_form_container col-sm-12 col-md-12 col-lg-7">
+            <h1>Contact Us</h1>
+            <form class="mt-5">
+              <div class="row">
+                <!-- first name -->
+                <div
+                  class="d-flex flex-column gap-1 col-sm-12 col-md-6 mt-4 mx-auto">
+                  <label for="contact_first_name">First Name</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="contact_first_name"
+                    class="contact_from_input"
+                    placeholder="Enter your First Name" />
+                </div>
+                <!-- last name -->
+                <div
+                  class="d-flex flex-column gap-1 col-sm-12 col-md-6 mt-4 mx-auto">
+                  <label for="contact_last_name">Last Name</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="contact_last_name"
+                    class="contact_from_input"
+                    placeholder="Enter your Last Name" />
+                </div>
+                <!-- email -->
+                <div
+                  class="d-flex flex-column gap-1 col-sm-12 col-md-6 mt-4 mx-auto">
+                  <label for="contact_email">Email</label>
+                  <input
+                    type="email"
+                    name=""
+                    id="contact_email"
+                    class="contact_from_input"
+                    placeholder="Enter your email" />
+                </div>
+                <!-- phone -->
+                <div
+                  class="d-flex flex-column gap-1 col-sm-12 col-md-6 mt-4 mx-auto">
+                  <label for="contact_phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    name=""
+                    id="contact_phone"
+                    class="contact_from_input"
+                    placeholder="Enter your phone number" />
+                </div>
+                <!-- message -->
+                <div class="d-flex flex-column gap-1 col-sm-12 mt-4">
+                  <label for="contact_message">Message</label>
+                  <textarea
+                    name=""
+                    id="contact_message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Type here"
+                    class="contact_from_input"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="mt-4 primary-btn">Submit</button>
+            </form>
+          </div>
+          <!-- info container -->
+          <div class="col-sm-12 col-md-5">
+            <div class="contact_info_container">
+              <div class="contact_info_inner_container">
+                <h4>Contact Informations</h4>
+                <!-- phone -->
+                <div class="d-flex align-items-center gap-2 mt-5">
+                  <div class="contact_icon_point">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M12.4925 9.94262C12.3811 10.7895 11.9651 11.5669 11.3224 12.1295C10.6797 12.6922 9.8542 13.0016 9.00001 13.0001C4.03751 13.0001 5.6554e-06 8.96262 5.6554e-06 4.00012C-0.00152558 3.14592 0.307935 2.32038 0.870589 1.67768C1.43324 1.03497 2.21061 0.619059 3.05751 0.507618C3.27166 0.481468 3.48854 0.525281 3.67575 0.632517C3.86296 0.739752 4.01047 0.904658 4.09626 1.10262L5.41626 4.04949V4.05699C5.48194 4.20853 5.50906 4.37397 5.49521 4.53854C5.48136 4.70311 5.42696 4.86169 5.33688 5.00012C5.32563 5.01699 5.31376 5.03262 5.30126 5.04824L4.00001 6.59074C4.46813 7.54199 5.46313 8.52824 6.42688 8.99762L7.94813 7.70324C7.96307 7.69068 7.97872 7.679 7.99501 7.66824C8.13331 7.57599 8.29244 7.51968 8.45799 7.50441C8.62353 7.48913 8.79028 7.51537 8.94313 7.58074L8.95126 7.58449L11.8956 8.90387C12.0939 8.98935 12.2592 9.13673 12.3668 9.32397C12.4744 9.51121 12.5185 9.72824 12.4925 9.94262Z"
+                        fill="white" />
+                    </svg>
+                  </div>
+                  <span class="contact_info_point">310-362-1252</span>
+                </div>
+                <!-- email -->
+                <div class="d-flex align-items-center gap-2 mt-2">
+                  <div class="contact_icon_point">
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M11.25 0.625H0.75C0.633968 0.625 0.522688 0.671094 0.440641 0.753141C0.358594 0.835188 0.3125 0.946468 0.3125 1.0625V8.5C0.3125 8.73206 0.404687 8.95462 0.568782 9.11872C0.732876 9.28281 0.955436 9.375 1.1875 9.375H10.8125C11.0446 9.375 11.2671 9.28281 11.4312 9.11872C11.5953 8.95462 11.6875 8.73206 11.6875 8.5V1.0625C11.6875 0.946468 11.6414 0.835188 11.5594 0.753141C11.4773 0.671094 11.366 0.625 11.25 0.625ZM10.8125 8.5H1.1875V2.05727L5.70414 6.19766C5.78485 6.27175 5.89043 6.31286 6 6.31286C6.10957 6.31286 6.21515 6.27175 6.29586 6.19766L10.8125 2.05727V8.5Z"
+                        fill="white" />
+                    </svg>
+                  </div>
+                  <span class="contact_info_point"
+                    >info@crownarrowcapital.com</span
+                  >
+                </div>
+                <!-- website -->
+                <div class="d-flex align-items-center gap-2 mt-2">
+                  <div class="contact_icon_point">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 0.03125C6.42393 0.03125 4.88326 0.498609 3.5728 1.37423C2.26235 2.24984 1.24097 3.49439 0.637838 4.95049C0.0347026 6.40659 -0.123105 8.00884 0.184371 9.55463C0.491847 11.1004 1.2508 12.5203 2.36525 13.6348C3.4797 14.7492 4.89959 15.5082 6.44538 15.8156C7.99116 16.1231 9.59341 15.9653 11.0495 15.3622C12.5056 14.759 13.7502 13.7377 14.6258 12.4272C15.5014 11.1167 15.9688 9.57607 15.9688 8C15.9663 5.88732 15.1259 3.86188 13.632 2.36798C12.1381 0.87409 10.1127 0.0337311 8 0.03125ZM14.3727 5.03125H11.2336C10.892 3.61437 10.269 2.28064 9.40157 1.10938C10.4784 1.33066 11.4886 1.8005 12.3517 2.48141C13.2148 3.16233 13.9068 4.03548 14.3727 5.03125ZM15.0313 8C15.0318 8.6881 14.931 9.37253 14.732 10.0312H11.4266C11.6495 8.68626 11.6495 7.31374 11.4266 5.96875H14.732C14.931 6.62747 15.0318 7.3119 15.0313 8ZM8 15.0312C7.98052 15.0314 7.96124 15.0273 7.94346 15.0194C7.92567 15.0114 7.90979 14.9997 7.89688 14.9852C6.89063 13.9016 6.15157 12.5102 5.73438 10.9688H10.2656C9.84844 12.5102 9.10938 13.9016 8.10313 14.9852C8.09022 14.9997 8.07434 15.0114 8.05655 15.0194C8.03876 15.0273 8.01948 15.0314 8 15.0312ZM5.52422 10.0312C5.2836 8.68777 5.2836 7.31223 5.52422 5.96875H10.4758C10.7164 7.31223 10.7164 8.68777 10.4758 10.0312H5.52422ZM0.968754 8C0.968227 7.3119 1.06905 6.62747 1.26797 5.96875H4.57344C4.3505 7.31374 4.3505 8.68626 4.57344 10.0312H1.26797C1.06905 9.37253 0.968227 8.6881 0.968754 8ZM8 0.96875C8.01948 0.968642 8.03876 0.972699 8.05655 0.980649C8.07434 0.988598 8.09022 1.00026 8.10313 1.01484C9.10938 2.09844 9.84844 3.48984 10.2656 5.03125H5.73438C6.15157 3.48984 6.89063 2.09844 7.89688 1.01484C7.90979 1.00026 7.92567 0.988598 7.94346 0.980649C7.96124 0.972699 7.98052 0.968642 8 0.96875ZM6.59844 1.10938C5.73104 2.28064 5.10801 3.61437 4.76641 5.03125H1.62735C2.09317 4.03548 2.78521 3.16233 3.64829 2.48141C4.51137 1.8005 5.5216 1.33066 6.59844 1.10938ZM1.62735 10.9688H4.76641C5.10801 12.3856 5.73104 13.7194 6.59844 14.8906C5.5216 14.6693 4.51137 14.1995 3.64829 13.5186C2.78521 12.8377 2.09317 11.9645 1.62735 10.9688ZM9.40157 14.8906C10.269 13.7194 10.892 12.3856 11.2336 10.9688H14.3727C13.9068 11.9645 13.2148 12.8377 12.3517 13.5186C11.4886 14.1995 10.4784 14.6693 9.40157 14.8906Z"
+                        fill="white" />
+                    </svg>
+                  </div>
+                  <span class="contact_info_point"
+                    >www.crownarrowcapital.com</span
+                  >
+                </div>
+                <!-- location -->
+                <div class="d-flex align-items-start gap-2 mt-2">
+                  <div class="contact_icon_point">
+                    <svg
+                      width="12"
+                      height="14"
+                      viewBox="0 0 12 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M6 0C4.54182 0.00165421 3.14383 0.581648 2.11274 1.61274C1.08165 2.64383 0.501654 4.04182 0.5 5.5C0.5 10.2063 5.5 13.7606 5.71313 13.9094C5.7972 13.9683 5.89735 13.9999 6 13.9999C6.10265 13.9999 6.2028 13.9683 6.28687 13.9094C6.5 13.7606 11.5 10.2063 11.5 5.5C11.4983 4.04182 10.9184 2.64383 9.88726 1.61274C8.85617 0.581648 7.45818 0.00165421 6 0ZM6 3.5C6.39556 3.5 6.78224 3.6173 7.11114 3.83706C7.44004 4.05682 7.69638 4.36918 7.84776 4.73463C7.99913 5.10009 8.03874 5.50222 7.96157 5.89018C7.8844 6.27814 7.69392 6.63451 7.41421 6.91421C7.13451 7.19392 6.77814 7.3844 6.39018 7.46157C6.00222 7.53874 5.60009 7.49913 5.23463 7.34776C4.86918 7.19638 4.55682 6.94004 4.33706 6.61114C4.1173 6.28224 4 5.89556 4 5.5C4 4.96957 4.21071 4.46086 4.58579 4.08579C4.96086 3.71071 5.46957 3.5 6 3.5Z"
+                        fill="white" />
+                    </svg>
+                  </div>
+                  <span class="contact_info_point"
+                    >2618 San Miguel Drive, Newport Beach, CA 92660</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-dark-secondary pt-5 pb-4">
