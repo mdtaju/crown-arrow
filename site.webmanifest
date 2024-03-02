@@ -1,0 +1,20 @@
+{
+  "name": "Crown Arrow",
+  "description": "Capital Management at CrownArrow Capital, LP encompasses a strategic approach tailored to the unique needs of our investors, particularly within the framework of a Private Equity Fund Model. As a trusted commodities investment fund manager, we diligently manage capital allocation, risk mitigation, and fund performance to maximize returns for our accredited investors.",
+  "short_name": "Crown Arrow",
+  "icons": [
+    {
+      "src": "/images/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#141414",
+  "background_color": "#1C1C1C",
+  "display": "standalone"
+}

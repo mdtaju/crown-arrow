@@ -1,0 +1,69 @@
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  font-family: var(--app-font-family-primary, "sans-serif");
+  font-size:  var(--app-font-size-quaternary, 18px);
+  font-weight: 400;
+}
+
+.offcanvas-backdrop {
+  background-color: rgba(
+    var(--app-shadow-clr-primary-rgba, 0, 0, 0, 0.75)
+  ) !important;
+}
+
+.offcanvas .offcanvas-body .nav-link{
+  position: relative;
+  font-size: var(--app-font-size-tertiary, 22px);
+}
+.offcanvas .offcanvas-body .nav-link::after{
+  --caret-size: 0.7rem;
+  --caret-width: 1px;
+  --caret-color: rgb(var(--app-font-ligt-clr-secondary-rgb, #fff));
+  content: '';
+  position: absolute;
+  width: var(--caret-size, 0.5rem);
+  height: var(--caret-size, 0.5rem);
+  aspect-ratio: 1/1;
+  top: 50%;
+  right: 0;
+  transform: rotate(-45deg) translate(-50%, -100%);
+  transform-origin: center;
+  border-width: var(--caret-width, 2px);
+  border-color: transparent var(--caret-color) var(--caret-color) transparent;
+  border-style: solid;
+}
+.offcanvas .offcanvas-body .nav-link:is(:hover, :focus)::after{
+  --caret-color: rgb(var(--app-font-ligt-clr-primary-rgb, #fff));
+}
+
+
+
+.footer-subscribtion-form div.input-area{
+  position: relative;
+}
+
+.footer-subscribtion-form div.input-area input:is([type="text"], [type="email"]){
+  padding: 1.25rem;
+}
+
+.footer-subscribtion-form div.input-area button[type="submit"]{
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-10px, -50%);
+}
+
+.banner-image-area img{
+  max-width: 80vw;
+  height: auto;
+  min-height: 70vh;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+  /* .banner-image-area img{
+    min-height: 60vh;
+  } */
+}
