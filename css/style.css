@@ -392,3 +392,34 @@ body {
     margin-top: 7px;
   }
 }
+
+/* login */
+.login_container {
+  width: 100%;
+  max-width: 800px;
+  background: #2c2b2b;
+  border-radius: 24px;
+  padding: 50px 100px;
+  margin: 0px auto;
+}
+.login_container h2 {
+  max-width: 324px;
+  margin: 0px auto;
+  font-size: 33px;
+}
+.login_golden_ratio {
+  position: absolute;
+  z-index: -1;
+  top: 80%;
+}
+
+@media (max-width: 768px) {
+  .login_golden_ratio {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .login_container {
+    padding: 20px;
+  }
+}
