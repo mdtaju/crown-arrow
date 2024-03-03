@@ -340,3 +340,55 @@ body {
     text-transform: uppercase;
   }
 }
+
+/* disclosure */
+.disclosure_container {
+  padding: 20px 0px;
+  overflow: hidden;
+  background: #2c2c2c;
+  height: 447px;
+}
+.disclosure_info_container {
+  padding: 50px 0px 70px 0px;
+}
+.condition_lists {
+  list-style: none;
+  list-style-position: outside;
+  padding: 0px;
+  margin-top: 60px;
+}
+.condition_lists li {
+  margin-bottom: 40px;
+}
+.condition_title_area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.condition_title_area div {
+  min-width: 25px;
+  min-height: 25px;
+  background: #a99b56;
+  border-radius: 100%;
+}
+.condition_title_area h3 {
+  font-family: "Trajan Pro";
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0px;
+}
+@media (max-width: 425px) {
+  .disclosure_container {
+    height: 300px;
+  }
+  .disclosure_info_container {
+    padding: 50px 30px 70px 30px;
+  }
+  .condition_title_area {
+    align-items: start;
+  }
+  .condition_title_area div {
+    margin-top: 7px;
+  }
+}
