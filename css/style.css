@@ -412,7 +412,24 @@ body {
   z-index: -1;
   top: 80%;
 }
-
+.password_input_container {
+  width: 100%;
+  position: relative;
+}
+.password_input_container input {
+  width: 100%;
+}
+#eye_open,
+#eye_close {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  cursor: pointer;
+}
+#eye_open {
+  display: none;
+}
 @media (max-width: 768px) {
   .login_golden_ratio {
     display: none;
