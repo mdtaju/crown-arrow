@@ -188,6 +188,7 @@ body {
   font-size: 52px;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
   max-width: 1014px;
 }
 .capital_management_container {
@@ -197,6 +198,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
+  width: 100%;
   max-width: 1014px;
 }
 @media (max-width: 425px) {
